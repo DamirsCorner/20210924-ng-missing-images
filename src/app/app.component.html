@@ -1,5 +1,5 @@
 <div class="images">
   <div *ngFor="let image of images" class="image">
-    <img [src]="image" class="image" />
+    <img [src]="image" class="image" (error)="handleMissingImage($event)" />
   </div>
 </div>
