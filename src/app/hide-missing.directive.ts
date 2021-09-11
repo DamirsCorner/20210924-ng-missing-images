@@ -1,7 +1,7 @@
 import { Directive, ElementRef, HostListener } from '@angular/core';
 
 @Directive({
-  selector: '[appHideMissing]',
+  selector: 'img[appHideMissing]',
 })
 export class HideMissingDirective {
   constructor(private el: ElementRef) {}
