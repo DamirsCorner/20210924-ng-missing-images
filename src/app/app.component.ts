@@ -11,8 +11,4 @@ export class AppComponent {
     'https://loremflickr.co/320/240/broken',
     'https://loremflickr.com/320/240/cat',
   ];
-
-  public handleMissingImage(event: Event) {
-    (event.target as HTMLImageElement).style.display = 'none';
-  }
 }
